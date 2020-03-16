@@ -24,7 +24,7 @@ def merge(a,left,right):
 
 
 def merge_sort(a):
-    if len(a) > 1:
+    if len(a) >1:
         q = (len(a) // 2)
         left=a[:q]
         right=a[q:]
